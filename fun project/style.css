@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+    background: rgb(249, 138, 227);
+}
+
+.wrapper{
+position: relative;
+width: 600px;
+height: 400px;
+background: #fff;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+i{
+    font-size: 7, 5em;
+    color: rgb(109, 132, 189);
+    border: 5px solid transparent;
+    outline: 3px solid rgb(60, 4, 41);
+    border-radius: 50%;
+}
+h2 {
+    font-size: 3em;
+    color: rgba(147, 21, 133, 0.772);
+    margin: 15px 0;
+}
+.btn-group{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px 0;
+}
+button {
+    position: absolute;
+width: 150px;
+height: inherit;
+font-size: 1.2em;
+font-weight: 600;
+border-radius: 30px;
+border: 2px solid rgb(142, 31, 86);
+outline: none;
+cursor: pointer;
+box-shadow: 0 2px 4px black;
+}
+
+button:nth-child(1) {
+margin-left: -200px;
+background: rgb(227, 29, 210);
+}
+button:nth-child(2) {
+    margin-right: -200px;
+    color: rgb(227, 29, 210);
+    }
